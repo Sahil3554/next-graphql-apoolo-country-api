@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import DenseAppBar from "../components/AppBar";
+import Details from "../components/Details";
 import DropDown from "../components/DropDown";
 import styles from "../styles/Home.module.css";
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <DenseAppBar />
       <DropDown />
+      <Details />
     </div>
   );
 }
